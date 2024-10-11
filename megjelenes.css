@@ -2,7 +2,7 @@ body{
     background-color: green;
 }
 
-h1{
+#focim{
     color: white;
     text-align: center;
 }
@@ -62,4 +62,24 @@ ul>li{
 ol>li{
     list-style-type: none;
     list-style: none;
+}
+
+#szoveg{
+    background-color: white;
+}
+
+#nagybetu{
+    /*1 megoldás*/
+    /*kiskapitális*/
+    /*font-variant: small-caps;*/
+    /*betűméret*/
+    /*font-size: 130%;*/
+
+    /*2 megoldás*/
+    text-transform: uppercase;
+}
+
+#nagybetus{
+    /*3. megoldás*/
+    text-transform: capitalize;
 }
