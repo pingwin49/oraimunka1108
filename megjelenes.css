@@ -20,3 +20,46 @@ img{
     /*height: 2cm;*/
     height: auto;
 }
+
+table, td{
+    /*keretezés*/
+    border: black solid 1px;
+    /*cellea távolságok megszüntetése*/
+    border-collapse: collapse;
+}
+
+table{
+
+    /*float megszüntetése*/
+    /*float: unset;
+    float: none;*/
+    clear: both;
+    /*háttérszín beállítása*/
+    background-color: white;
+}
+
+#elso{
+    /*háttérkép beállítása*/
+    background-image: url("smiley2.png");
+    /*háttérkép méretezése */
+    background-size: contain;
+    /*background-size: cover;*/
+    /*háttérkép ismétlése x és y tengelyen, ne legyen*/
+    background-repeat: no-repeat;
+    /*kép pozíciója x és y tengely szerint*/
+    background-position: center center;
+}
+
+ul>li{
+    /*listajel kép legyen*/
+    list-style-image: url("smiley2.png");
+    /*lista jelölő az elem előtt*/
+    /*list-style-position: outside;*/
+    /*lista jelölő az elemmel*/
+    list-style-position: inside;
+}
+
+ol>li{
+    list-style-type: none;
+    list-style: none;
+}
